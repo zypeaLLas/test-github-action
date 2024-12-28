@@ -7,7 +7,7 @@ COPY package.json package-lock.json ./
 RUN npm install
 COPY . .
 
-EXPOSE 3009
+EXPOSE 4000
 
 
 CMD ["npm", "start"]
