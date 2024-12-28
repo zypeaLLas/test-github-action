@@ -1,6 +1,5 @@
 
-FROM node:18-alpine3.20
-
+FROM node:20-alpine3.19
 
 WORKDIR react-basic/
 
